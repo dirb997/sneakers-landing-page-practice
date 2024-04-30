@@ -1,0 +1,369 @@
+*{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+main{
+    margin: 0 187px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150px;
+    background-color: RGB(242,112,42);
+}
+header img{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+header h1{
+    font-family: "Madimi One", sans-serif;
+    text-shadow: 2px 1px 5px ghostwhite;
+}
+#headNav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+} 
+#headNav li{
+    list-style: none;
+    margin-left: 10px;
+} 
+
+#mainNav ul{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #F5F5F5;
+    padding-left: 165px;
+}
+
+#mainNav li{
+    list-style: none;
+    text-decoration: none;
+    font-family: "PT Serif Caption", serif;
+    color: black;
+    margin: 0 0 0 20px;
+}
+
+#mainNav a {
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    font-family: "PT Serif Caption", serif;
+    font-weight: bold;
+    color: black;
+}
+
+#mainNav a:hover{
+    color: RGB(242,112,42);
+}
+
+#section1{
+    margin-top: 20px;
+}
+
+#section1 h1{
+    font-family: "Madimi One", sans-serif;
+    color: RGB(242,112,42);
+    font-size: 20px;
+    border-bottom: 4px dotted RGB(242,112,42);
+}
+
+#section1 h2{
+    font-family: "PT Serif Caption", serif;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#sneakersList h1{
+    color: black;
+    border: none;
+    font-size: 50px;
+    font-family: "PT Serif Caption", serif!important;
+    font-weight: 300!important;
+}
+
+#casualSneakers {
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#casualSneakers img{
+    width: 200px;
+    height: 150px;
+}
+
+#casualSneakers ul {
+    margin-right: 115px;
+    font-family: "Madimi One", sans-serif;
+}
+
+#elegantSneakers {
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#elegantSneakers img{
+    width: 200px;
+    height: 150px;
+}
+
+#elegantSneakers ul {
+    margin-left: 110px;
+    font-family: "Madimi One", sans-serif;
+}
+
+#classicalSneakers {
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#classicalSneakers img{
+    width: 180px;
+    height: 110px;
+}
+
+#classicalSneakers ul {
+    margin-right: 120px;
+    font-family: "Madimi One", sans-serif;
+}
+
+#section2 h1{
+    font-family: "Madimi One", sans-serif;
+    color: RGB(242,112,42);
+    font-size: 20px;
+    border-bottom: 4px dotted RGB(242,112,42);
+}
+
+#section2 h2{
+    font-family: "PT Serif Caption", serif;
+    font-size: 13px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#sportCharacterisitics {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px auto;
+}
+  
+#galleryElement1 {
+    margin: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 46%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+#galleryElement1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 70% / 25%;
+}
+  
+#galleryElement1 p {
+    margin-top: 10px;
+}
+
+#galleryElement2 {
+    margin: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 46%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+#galleryElement2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 70% / 25%;
+}
+  
+#galleryElement2 p {
+    margin-top: 10px;
+}
+
+#galleryElement3 {
+    margin: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 21%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+#galleryElement3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+  
+#galleryElement3 p {
+    margin-top: 10px;
+}
+
+#galleryElement4 {
+    margin: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 21%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+#galleryElement4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+  
+#galleryElement4 p {
+    margin-top: 10px;
+}
+
+#galleryElement5 {
+    margin: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 21%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+#galleryElement5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+  
+#galleryElement5 p {
+    margin-top: 10px;
+}
+
+#galleryElement6 {
+    margin: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 21%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+#galleryElement6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+  
+#galleryElement6 p {
+    margin-top: 10px;
+}
+
+#section3 h1{
+    font-family: "Madimi One", sans-serif;
+    color: RGB(242,112,42);
+    font-size: 20px;
+    border-bottom: 4px dotted RGB(242,112,42);
+    margin-top: 15px;
+}
+
+#section3 h2{
+    font-family: "PT Serif Caption", serif;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#signUpInfo{
+    width: 100%;
+    height: 150px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#signUpInfo h1{
+    border: none;
+    margin-bottom: 20px;
+}
+
+#signUpInfo button {
+    font-family: "PT Serif Caption", serif;
+    width: 100px;
+    height: 40px;
+    background-color: RGB(242,112,42);
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+  
+#signUpInfo button:hover {
+    background-color: RGB(200, 80, 0);
+}
+
+#contactInformation {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px; 
+    font-family: "PT Serif Caption", serif;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    padding: 0 150px;
+}
+
+#footerNav li{
+    list-style: none;
+    color: #fff;
+    font-family: "PT Serif Caption", serif;
+}
+
+#footerNav a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 80%;
+}
+
+#footerNav a:hover{
+    text-decoration: none;
+    color: #fff;
+    opacity: 100%;
+}
