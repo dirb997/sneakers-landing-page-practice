@@ -1,3 +1,4 @@
+/* Full page styles */
 *{
     max-width: 1170px;
     margin: 0 auto;
@@ -7,6 +8,7 @@ main{
     margin: 0 187px;
 }
 
+/* Header styles */
 #header {
     display: flex;
     flex-direction: row;
@@ -24,6 +26,7 @@ header img{
 header h1{
     font-family: "Madimi One", sans-serif;
     text-shadow: 2px 1px 5px ghostwhite;
+    padding-left: 100px;
 }
 #headNav ul{
     display: flex;
@@ -34,6 +37,57 @@ header h1{
     list-style: none;
     margin-left: 10px;
 } 
+
+#loginLogo {
+    background: url(../images/sprite.png) 209px -5px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: 500px;
+    cursor: pointer;
+}
+
+#infoLogo {
+    background: url(../images/sprite.png) 137px -8px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: 500px;
+    cursor: pointer;
+}
+
+#cartLogo {
+    background: url(../images/sprite.png)  62px -7px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: 500px;
+    cursor: pointer;
+}
+
+#loginLogo:hover {
+    background: url(../images/sprite.png) 209px -76px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: 500px;
+}
+
+#infoLogo:hover {
+    background: url(../images/sprite.png) 137px -79.5px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: 500px;
+}
+
+#cartLogo:hover {
+    background: url(../images/sprite.png)  62px -78px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: 500px;
+}
 
 #mainNav ul{
     display: flex;
@@ -64,6 +118,9 @@ header h1{
     color: RGB(242,112,42);
 }
 
+/* main body styles */
+
+/* First Section "our sneakers" styles */
 #section1{
     margin-top: 20px;
 }
@@ -93,60 +150,148 @@ header h1{
     height: 150px;
     border: 1px solid;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 #casualSneakers img{
-    width: 200px;
-    height: 150px;
+    width: 20%;
+    height: 75%;
+    margin: 0 10px;
 }
 
-#casualSneakers ul {
-    margin-right: 115px;
+#csContainer{
+    margin-left: 95px;
+}
+
+#csContainer p {
     font-family: "Madimi One", sans-serif;
+}
+#casualSneakers ul {
+    list-style-type: none;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#casualSneakers li {
+    background-image: url('/images/icon.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "PT Serif Caption", serif;
+    font-size: 13px;
+}
+
+#casualSneakers h1{
+    height: 100%;
+    width: 24%;
+    background-color: #F5F5F5;
+    align-content: center;
+    margin: 0;
+    text-align: center;
 }
 
 #elegantSneakers {
     height: 150px;
     border: 1px solid;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     margin-bottom: 15px;
 }
 
 #elegantSneakers img{
-    width: 200px;
-    height: 150px;
+    width: 20%;
+    height: 75%;
+    margin-right: 10px;
+    max-width: fit-content;
 }
 
-#elegantSneakers ul {
-    margin-left: 110px;
+#esContainer p {
     font-family: "Madimi One", sans-serif;
+}
+#elegantSneakers ul {
+    list-style-type: none;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#elegantSneakers li {
+    background-image: url('/images/icon.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "PT Serif Caption", serif;
+    font-size: 13px;
+}
+
+#elegantSneakers h1{
+    height: 100%;
+    width: 24%;
+    background-color: #F5F5F5;
+    align-content: center;
+    margin: 0;
+    text-align: center;
 }
 
 #classicalSneakers {
     height: 150px;
     border: 1px solid;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     margin-bottom: 15px;
 }
 
 #classicalSneakers img{
-    width: 180px;
-    height: 110px;
+    width: 20%;
+    height: 75%;
 }
 
-#classicalSneakers ul {
-    margin-right: 120px;
+#clContainer {
+    margin-right: 130px;
+}
+
+#clContainer p {
     font-family: "Madimi One", sans-serif;
 }
 
+#classicalSneakers ul {
+    list-style-type: none;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#classicalSneakers li {
+    background-image: url('/images/icon.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "PT Serif Caption", serif;
+    font-size: 13px;
+}
+
+#classicalSneakers h1{
+    height: 100%;
+    width: 24%;
+    background-color: #F5F5F5;
+    align-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+/* Second Section "do sports" styles */
 #section2 h1{
     font-family: "Madimi One", sans-serif;
     color: RGB(242,112,42);
@@ -159,6 +304,11 @@ header h1{
     font-size: 13px;
     height: 20px;
     margin-top: 10px;
+}
+
+#section2 p{
+    font-family: "PT Serif Caption", serif;
+    font-size: 13px;
 }
 
 #sportCharacterisitics {
@@ -288,6 +438,7 @@ header h1{
     margin-top: 10px;
 }
 
+/* Third Section "contact us" styles */
 #section3 h1{
     font-family: "Madimi One", sans-serif;
     color: RGB(242,112,42);
@@ -338,8 +489,83 @@ header h1{
     margin-left: 10px;
     height: 150px; 
     font-family: "PT Serif Caption", serif;
+    display: flex;
 }
 
+#contactText {
+    align-content: center;
+    line-height: 0;
+}
+
+#footerLogos{
+    align-content: center;
+}
+
+#faceLogo {
+    background: url(../images/sprite.png) 0px 0px / 419px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#linkLogo {
+    background: url(../images/sprite.png) -60px 0px / 419px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#xLogo {
+    background: url(../images/sprite.png) -120px 0px / 421px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#instaLogo {
+    background: url(../images/sprite.png) -180px 0px / 421px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#faceLogo:hover {
+    background: url(../images/sprite.png) 0px -60px / 419px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#linkLogo:hover {
+    background: url(../images/sprite.png) -60px -60px / 419px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#xLogo:hover {
+    background: url(../images/sprite.png) -120px -60px / 421px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#instaLogo:hover {
+    background: url(../images/sprite.png) -180px -60px / 421px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
 footer ul{
     display: flex;
     flex-direction: row;
