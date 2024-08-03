@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
@@ -38,29 +38,38 @@
             <div id="sneakersList">
                 <div id="casualSneakers">
                     <img src="./images/product1.png" alt="imageProduct1">
-                    <ul>Casual Sneakers
-                        <li>More colours available</li>
-                        <li>Size from 36 to 44</li>
-                        <li>Delivery in 24 hours</li>
-                    </ul>
+                    <div id="csContainer">
+                        <p>Casual Sneakers</p>
+                        <ul>
+                            <li>More colours available</li>
+                            <li>Size from 36 to 44</li>
+                            <li>Delivery in 24 hours</li>
+                        </ul>
+                    </div>
                     <h1>100€</h1>
                 </div>
                 <div id="elegantSneakers">
                     <h1>120€</h1>
-                    <ul>Elegant Sneakers
-                        <li>More designs available</li>
-                        <li>Size from 38 to 44</li>
-                        <li>Delivery in 48 hours</li>
-                    </ul>
+                    <div id="esContainer">
+                        <p>Elegant Sneakers</p>
+                        <ul>
+                            <li>More designs available</li>
+                            <li>Size from 38 to 44</li>
+                            <li>Delivery in 48 hours</li>
+                        </ul>
+                    </div>
                     <img src="./images/product2.png" alt="imageProduct2">
                 </div>
                 <div id="classicalSneakers">
                     <img src="./images/product3.png" alt="imageProduct3">
-                    <ul>Classical Sneakers
-                        <li>More colours available</li>
-                        <li>Size from 36 to 44</li>
-                        <li>Delivery in 24 hours</li>
-                    </ul>
+                    <div id="clContainer">
+                        <p>Classical Sneakers</p>
+                        <ul>
+                            <li>More colours available</li>
+                            <li>Size from 36 to 44</li>
+                            <li>Delivery in 24 hours</li>
+                        </ul>
+                    </div>
                     <h1>80€</h1>
                 </div>
             </div>
@@ -103,9 +112,19 @@
                 <button>Sign Up</button>
             </div>
             <div id="contactInformation">
-                <h2>Sneakers Street, 23</h2>
-                <h2>916 923 273</h2>
-                <h2>Customer Support: Monday to Friday 9:00 - 19:00h</h2>
+                <div id="contactText">
+                    <h2>Sneakers Street, 23</h2>
+                    <h2>916 923 273</h2>
+                    <h2>Customer Support: Monday to Friday 9:00 - 19:00h</h2>
+                </div>
+                <div id="footerLogos">
+                    <ul>
+                        <li id="faceLogo"></li>
+                        <li id="linkLogo"></li>
+                        <li id="xLogo"></li>
+                        <li id="instaLogo"></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </main>
